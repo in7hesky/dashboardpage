@@ -63,6 +63,7 @@ h3, h2, p {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    padding-right: 15px;
 }
 
 .logo-text {
@@ -293,4 +294,40 @@ h3, h2, p {
 
 .nick { 
     color: black;
+}
+
+@media (max-width: 890px) {
+    .projects-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .main {
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media (max-width: 860px) {
+    .search-wrapper {
+        grid-column: span 2;
+    }
+    .greet-wrapper {
+        display: none;
+    }
+    .profile-wrapper {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 735px) {
+    .nav {
+        display: none;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 535px) {
+    .header .fullname {
+        display: none;
+    }
 }
