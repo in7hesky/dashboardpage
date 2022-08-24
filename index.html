@@ -11,43 +11,45 @@
 <body>
     <div class="container">
         <nav class="nav">
-            <div class="logo-wrapper">
-                <img src="./images/dashboard.svg" alt="logo" class="logo-image">
-                <div class="logo-text">Dashboard</div>
+            <div class="nav-sticky">
+                <div class="logo-wrapper">
+                    <img src="./images/dashboard.svg" alt="logo" class="logo-image">
+                    <div class="logo-text">Dashboard</div>
+                </div>
+                <ul class="nav-list">
+                    <div class="nav-links column">
+                        <a href="">
+                            <li><img src="./images/home.svg" alt="home" class="nav-image">Home</li>
+                        </a>
+                        <a href="">
+                            <li><img src="./images/profile.svg" alt="profile" class="nav-image">Profile</li>
+                        </a>
+                        <a href="">
+                            <li><img src="./images/message.svg" alt="messages" class="nav-image">Messages</li>
+                        </a>
+                        <a href="">
+                            <li><img src="./images/clock.svg" alt="history" class="nav-image">History</li>
+                        </a>
+                        <a href="">
+                            <li><img src="./images/tasks.svg" alt="tasks" class="nav-image">Tasks</li>
+                        </a>
+                        <a href="">
+                            <li><img src="./images/people.svg" alt="communities" class="nav-image">Communities</li>
+                        </a>
+                    </div>
+                    <div class="nav-options column">
+                        <a href="">
+                            <li><img src="./images/cog.svg" alt="settings" class="nav-image">Settings</li>
+                        </a>
+                        <a href="">
+                            <li><img src="./images/wrench.svg" alt="support" class="nav-image">Support</li>
+                        </a>
+                        <a href="">
+                            <li><img src="./images/shield.svg" alt="privacy" class="nav-image">Privacy</li>
+                        </a>
+                    </div>
+                </ul>
             </div>
-            <ul class="nav-list">
-                <div class="nav-links column">
-                    <a href="">
-                        <li><img src="./images/home.svg" alt="home" class="nav-image">Home</li>
-                    </a>
-                    <a href="">
-                        <li><img src="./images/profile.svg" alt="profile" class="nav-image">Profile</li>
-                    </a>
-                    <a href="">
-                        <li><img src="./images/message.svg" alt="messages" class="nav-image">Messages</li>
-                    </a>
-                    <a href="">
-                        <li><img src="./images/clock.svg" alt="history" class="nav-image">History</li>
-                    </a>
-                    <a href="">
-                        <li><img src="./images/tasks.svg" alt="tasks" class="nav-image">Tasks</li>
-                    </a>
-                    <a href="">
-                        <li><img src="./images/people.svg" alt="communities" class="nav-image">Communities</li>
-                    </a>
-                </div>
-                <div class="nav-options column">
-                    <a href="">
-                        <li><img src="./images/cog.svg" alt="settings" class="nav-image">Settings</li>
-                    </a>
-                    <a href="">
-                        <li><img src="./images/wrench.svg" alt="support" class="nav-image">Support</li>
-                    </a>
-                    <a href="">
-                        <li><img src="./images/shield.svg" alt="privacy" class="nav-image">Privacy</li>
-                    </a>
-                </div>
-            </ul>
         </nav>
         <header class="header">
             <div class="search-wrapper">
@@ -78,54 +80,66 @@
             <section class="projects">
                 <h2 class="projects-title">Your Projects</h2>
                 <div class="projects-wrapper">
-                    <div class="project card">
-                        <h3 class="project-title">Super Cool Project</h3>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="project card column">
+                        <div class="project-content">
+                            <h3 class="project-title">Super Cool Project</h3>
+                            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
                         <div class="project-interactions">
                             <input type="image" src="./images/star.svg">
                             <input type="image" src="./images/eye.svg">
                             <input type="image" src="./images/share.svg">
                         </div>
                     </div>
-                    <div class="project card">
-                        <h3 class="project-title">Less Cool Project</h3>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="project card column">
+                        <div class="project-content">
+                            <h3 class="project-title">Less Cool Project</h3>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
                         <div class="project-interactions">
                             <input type="image" src="./images/star.svg">
                             <input type="image" src="./images/eye.svg">
                             <input type="image" src="./images/share.svg">
                         </div>
                     </div>
-                    <div class="project card">
-                        <h3 class="project-title">Impossible App</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <div class="project card column">
+                        <div class="project-content">
+                            <h3 class="project-title">Impossible App</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
                         <div class="project-interactions">
                             <input type="image" src="./images/star.svg">
                             <input type="image" src="./images/eye.svg">
                             <input type="image" src="./images/share.svg">
                         </div>
                     </div>
-                    <div class="project card">
-                        <h3 class="project-title">Easy Peasy App</h3>
-                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <div class="project card column">
+                        <div class="project-content">
+                            <h3 class="project-title">Easy Peasy App</h3>
+                            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
                         <div class="project-interactions">
                             <input type="image" src="./images/star.svg">
                             <input type="image" src="./images/eye.svg">
                             <input type="image" src="./images/share.svg">
                         </div>
                     </div>
-                    <div class="project card">
-                        <h3 class="project-title">Ad Blocker</h3>
-                        <p>Ipsum dolor sit amet, consectetur adipiscing elit.. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                    <div class="project card column">
+                        <div class="project-content">
+                            <h3 class="project-title">Ad Blocker</h3>
+                            <p>Ipsum dolor sit amet, consectetur adipiscing elit.. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                        </div>
                         <div class="project-interactions">
                             <input type="image" src="./images/star.svg">
                             <input type="image" src="./images/eye.svg">
                             <input type="image" src="./images/share.svg">
                         </div>
                     </div>
-                    <div class="project card">
-                        <h3 class="project-title">Money Maker</h3>
-                        <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                    <div class="project card column">
+                        <div class="project-content">
+                            <h3 class="project-title">Money Maker</h3>
+                            <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                        </div>
                         <div class="project-interactions">
                             <input type="image" src="./images/star.svg">
                             <input type="image" src="./images/eye.svg">
@@ -148,7 +162,7 @@
                         </div>
                         <div class="announce-entry">
                             <h3 class="announce-title">Updated Privacy Policy</h3>
-                            <p>Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae.Volutpat blandit aliquam etiam erat velit scelerisque in dictum non. Tellus in hac habitasse platea. Libero id faucibus nisl tincidunt. </p>
+                            <p>Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae.Volutpat blandit aliquam etiam erat velit scelerisque in dictum non.</p>
                         </div>
                     </div>
                 </div>
