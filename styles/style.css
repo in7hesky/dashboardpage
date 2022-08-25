@@ -154,7 +154,7 @@ h3, h2, p {
 
 .burger-button {
     border-radius: 10px;
-    background: #1992D4;
+    background: white;
     width: 40px;
     height: 40px;
     padding: 5px;
@@ -174,8 +174,8 @@ h3, h2, p {
 
 .burger-line {
     width: 25px;
-    height: 3px;
-    background: white;
+    height: 2px;
+    background: black;
 }
 
 .search-wrapper {
