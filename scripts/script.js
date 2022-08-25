@@ -11,8 +11,6 @@ const profileWrapper = document.querySelector(".profile-wrapper")
 
 let searchIsOpen = false
 
-
-
 burgerButton.addEventListener("click", () => {
     menu.classList.add("open")
 })
@@ -31,6 +29,7 @@ document.defaultView.addEventListener("resize", () => {
         }
     }
 })
+
 function openSearchField() {
     vw = Math.max(document.documentElement.clientWidth || 0,
          window.innerWidth || 0)
